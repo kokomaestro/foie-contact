@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ #contact-form-errors {
+ 	color: red;
+ }
+
+ #outer-container {
+  padding-left: 1em;
+ }
+
+ #container {
+ 	display: flex;
+ 	flex-direction: column;
+ 	font-size: 2em;
+ 	color: blue;
+ 	align-items: flex-start;
+ }
+
+ .contact-form-input {
+ 	margin: 0 0 1em 1em;
+ }
+
+ #contact-msg {
+ 	width: 40em;
+ 	margin-bottom: 1em;
+ 	resize: vertical;
+ }
+
+ #success-msg {
+ 	color: yellow;
+ 	font-size: 2em;
+ 	padding-left: 1em;
+ }
